@@ -475,7 +475,8 @@ custom_extensions:
 The `vendor_name` field is a free-form string, allowing any vendor or organization to
 define custom extensions without requiring changes to the core specification.
 
-The following are well-known examples:
+The following are well-known examples. This is an advisory registry, not a closed
+set: any string is valid and conforming tools preserve tokens they do not recognize.
 
 | Vendor | Description |
 |--------|-------------|
@@ -487,6 +488,9 @@ The following are well-known examples:
 | `GOODDATA` | GoodData-specific attributes |
 | `HONEYDEW` | Honeydew-specific attributes |
 | `WISDOM` | WisdomAI-specific attributes |
+| `OMNI` | Omni-specific attributes |
+| `NVIDIA_GSF` | NVIDIA Generative Semantic Fabric-specific attributes |
+| `POWER_BI` | Power BI round-trip metadata emitted by the Microsoft converter |
 | `SIGMA` | Sigma Computing-specific attributes |
 
 ### Examples
@@ -530,7 +534,7 @@ The following are well-known examples:
 **Databricks Extension:**
 
 ```yaml
-- vendor_name: Databricks
+- vendor_name: DATABRICKS
   data: '{
     "default_catalog": "finance",
     "default_schema": "gold"

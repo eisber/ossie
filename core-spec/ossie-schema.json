@@ -42,8 +42,8 @@
     },
     "Vendor": {
       "type": "string",
-      "examples": ["COMMON", "SNOWFLAKE", "SALESFORCE", "DBT", "DATABRICKS", "GOODDATA", "WISDOM", "POWER_BI"],
-      "description": "Vendor name for custom extensions. Any string value is accepted."
+      "examples": ["COMMON", "SNOWFLAKE", "SALESFORCE", "DBT", "DATABRICKS", "GOODDATA", "HONEYDEW", "WISDOM", "OMNI", "NVIDIA_GSF", "POWER_BI", "SIGMA"],
+      "description": "Vendor name for custom extensions. Any string value is accepted; examples are well-known tokens, not a closed set."
     },
     "AIContext": {
       "description": "Additional context for AI tools",

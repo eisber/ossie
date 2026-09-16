@@ -63,7 +63,7 @@ _TEMPORAL_DATA_TYPES = frozenset(
 
 
 class OssieVendor(str, Enum):
-    """Well-known vendor names for custom extensions."""
+    """Advisory well-known vendor names for custom extensions."""
 
     COMMON = "COMMON"
     SNOWFLAKE = "SNOWFLAKE"
@@ -71,8 +71,12 @@ class OssieVendor(str, Enum):
     DBT = "DBT"
     DATABRICKS = "DATABRICKS"
     GOODDATA = "GOODDATA"
+    HONEYDEW = "HONEYDEW"
     SEMANTIDO = "SEMANTIDO"
     WISDOM = "WISDOM"
+    OMNI = "OMNI"
+    NVIDIA_GSF = "NVIDIA_GSF"
+    POWER_BI = "POWER_BI"
     SIGMA = "SIGMA"
 
 

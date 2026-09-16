@@ -65,7 +65,8 @@ Read a vendor-specific semantic model and produce a valid Ossie model, including
 
 ## Supported Vendors
 
-The Ossie specification currently defines extensions for the following vendors:
+Converters currently exist for the following vendors. The well-known extension
+tokens are listed in the [core specification](../core-spec/spec.md#vendor-names).
 
 | Vendor | Description |
 |--------|-------------|
@@ -73,9 +74,12 @@ The Ossie specification currently defines extensions for the following vendors:
 | `SALESFORCE` | Salesforce / Tableau semantic layer |
 | `DBT` | dbt semantic models |
 | `DATABRICKS` | Databricks semantic layer |
+| `GOODDATA` | GoodData workspace / logical data model |
+| `HONEYDEW` | Honeydew semantic layer |
 | `OMNI` | Omni semantic model |
 | `WISDOM` | WisdomAI domain |
 | `NVIDIA_GSF` | NVIDIA Generative Semantic Fabric standalone YAML |
+| `POWER_BI` | Power BI / Fabric semantic models (TMSL `model.bim` / TMDL) |
 | `SIGMA` | Sigma Computing data model |
 
 Each vendor may define custom extensions (via the `custom_extensions` field in the Ossie spec) to carry vendor-specific metadata that does not have an equivalent in the core specification.
