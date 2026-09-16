@@ -476,7 +476,7 @@ The `vendor_name` field is a free-form string, allowing any vendor or organizati
 define custom extensions without requiring changes to the core specification.
 
 The following are well-known examples. This is an advisory registry, not a closed
-set: any string is valid and conforming tools preserve tokens they do not recognize.
+set: any string remains valid whether or not it appears in the table.
 
 | Vendor | Description |
 |--------|-------------|
